@@ -19,11 +19,11 @@ public class HolaMundo {
     /**
      * Construye la cadena a devolver bien formada si el array que se le pasa como parámetro tiene un tamaño superior a cero.
      * 
-     * @param Array<String> array de String a concatenar.
+     * @param _args Array de String
      * 
      * @return String cadena pasada por parámetro
      */
-    static String saludoPorArgumnentosMain(String[] _args){
+    public static String saludoPorArgumnentosMain(String[] _args){
         StringBuilder saludo = new StringBuilder();
         // More arguments
         if(_args.length > 0){
